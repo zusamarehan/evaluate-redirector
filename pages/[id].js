@@ -7,7 +7,8 @@ const NotFound = () => {
   const { id } = router.query;
   
   useEffect(() => {
-    router.push('http://getevaluate.app/redirect/'.id) 
+    console.log('https://getevaluate.app/redirect/'.id)
+    router.push('https://getevaluate.app/redirect/'.id) 
   }, [id])
   
   return (
