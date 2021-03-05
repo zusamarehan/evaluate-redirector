@@ -6,7 +6,7 @@ const NotFound = () => {
   const router = useRouter();
   
   useEffect(() => {
-    router.push('/'); 
+    router.push('https://ecosystem.atlassian.net/browse/ACJIRA-1632'); 
   }, [])
   
   return (
