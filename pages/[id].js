@@ -12,7 +12,7 @@ const NotFound = () => {
   }, [id])
   
   return (
-    <div>The ID is {id} </div>
+    <div>Loading quiz...</div>
   );
   
 }
