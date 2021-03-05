@@ -4,9 +4,9 @@ import { useRouter } from 'next/router'
 
 const NotFound = () => {
   const router = useRouter();
-  
+  const { id } = router.query;
   return (
-    <div>ID Page</div>
+    <div>The ID is {id} </div>
   );
   
 }
