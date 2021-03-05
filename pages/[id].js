@@ -8,7 +8,7 @@ const NotFound = () => {
   
   useEffect(() => {
     console.log(id); 
-  }, [])
+  }, [id])
   
   return (
     <div>The ID is {id} </div>
