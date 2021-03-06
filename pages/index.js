@@ -3,8 +3,15 @@ import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 
 const Home = () => {
+  const router = useRouter();
+  const { id } = router.query;
+  
+  useEffect(() => {
+    router.push('https://getevaluate.app') 
+  }, [id])
+  
   return (
-    <div>Hello Cats!</div>
+    <div>Loading...</div>
   );
   
 }
